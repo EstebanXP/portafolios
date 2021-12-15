@@ -10,6 +10,7 @@
 
       <NavBarLinks to="/" icon="fas fa-home">Home</NavBarLinks>
       <NavBarLinks to="/about" icon="fas fa-columns">About</NavBarLinks>
+      <NavBarLinks to="/projects" icon="fas fa-columns">Projects</NavBarLinks>
 
       <span class="collapse-icon"
       :class="{ 'rotate-180': collapsed }"
