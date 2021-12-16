@@ -9,8 +9,8 @@
       </h1>
 
       <NavBarLinks to="/" icon="fas fa-home">Home</NavBarLinks>
-      <NavBarLinks to="/about" icon="fas fa-columns">About</NavBarLinks>
-      <NavBarLinks to="/projects" icon="fas fa-columns">Projects</NavBarLinks>
+      <NavBarLinks to="/about" icon="fas fa-user">About Me</NavBarLinks>
+      <NavBarLinks to="/projects" icon="fas fa-folder-open">Projects</NavBarLinks>
 
       <span class="collapse-icon"
       :class="{ 'rotate-180': collapsed }"
@@ -38,9 +38,9 @@ export default {
 
 <style>
 :root{
-  --sidebar-bg-color: #a1b434;
-  --sidebar-item-hober: #38a169;
-  --sidebar-item-active: #276749;
+  --sidebar-bg-color: #242121;
+  --sidebar-item-hover: #534d4d;
+  --sidebar-item-active: #ff0000;
 }
 </style>
 
