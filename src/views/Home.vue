@@ -8,7 +8,7 @@
         </strong>
       </h1>
     </header>
-    <WhiteSpace inText="Hello World. Welcome to my Portfolio"></WhiteSpace>
+    <WhiteSpace v-bind:inText='text'></WhiteSpace>
   </div>
 </template>
 
@@ -17,6 +17,11 @@ import WhiteSpace from '../components/WhiteSpace.vue'
 
 export default {
   name: 'Home',
+  data () {
+    return {
+      text: 'Prueba'
+    }
+  },
   components: {
     WhiteSpace
   }

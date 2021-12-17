@@ -38,16 +38,21 @@ export default {
 
 <style>
 :root{
+  /**Color de el navbar */
   --sidebar-bg-color: #242121;
+  /**Color del hover */
   --sidebar-item-hover: #534d4d;
+  /**Color de el hover cuando haces click */
   --sidebar-item-active: #ff0000;
 }
 </style>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
 .sidebar{
   color: white;
   background-color: var(--sidebar-bg-color);
+  font-family: 'Poppins', sans-serif;
 
   float: left;
   position: fixed;

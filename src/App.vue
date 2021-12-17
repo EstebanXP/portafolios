@@ -11,6 +11,7 @@
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Raleway&display=swap');
 /* Color Palette #FDD8D4*/
 :root {
   --softColor: #d37166;
@@ -26,7 +27,7 @@ body {
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
