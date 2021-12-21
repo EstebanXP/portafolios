@@ -13,13 +13,13 @@
       <div class="sibling-fade">
         <a href="#">C</a>
         <a href="#">C++</a>
-        <a href="#">NoSQL Database: Firebase</a>
         <a href="#">NoSQL Database: MongoDB</a>
         <a href="#">Java</a>
         <a href="#">JavaScript</a>
         <a href="#">JavaScript: React</a>
         <a href="#">JavaScript: Vue</a>
         <a href="#">SQL</a>
+        <a href="#">NoSQL Database: Firebase</a>
         <a href="#">OOP Conpcepts</a>
         <a href="#">CSS</a>
         <a href="#">Node.Js</a>
@@ -45,8 +45,8 @@ export default {
   name: 'About',
   data () {
     return {
-      text: 'I am Esteban Xelhuantzi, i am 22 years old and currently on 9th semester of the Computer Science degree. ',
-      text2: 'During my college time and by personal projects these are the technologies and concepts i learned, have minimum a basic level and usually use',
+      text: 'I am Esteban Xelhuantzi, i am 22 years old born and raise in Chihuahua, Chihuahua and currently on 9th semester of the Computer Science degree at UACH.',
+      text2: 'During my college time and by personal projects these are the technologies and concepts i learned, have a minimum basic level and usually use',
       text3: 'Technical Skills are important, but, i also have these skills '
     }
   },
@@ -54,30 +54,6 @@ export default {
     WhiteSpace
   }
 }
-/**
- *<div>
-        <ul>
-          <li>C</li>
-          <li>C++</li>
-          <li>Java</li>
-          <li>JavaScript</li>
-          <ul>
-            <li>Vue</li>
-            <li>React</li>
-          </ul>
-          <li>SQL</li>
-          <li>OOP Conpcepts</li>
-          <li>NoSQL Database</li>
-          <ul>
-            <li>MongoDB</li>
-            <li>Firebase</li>
-          </ul>
-          <li>CSS</li>
-          <li>Node.js</li>
-          <li>Git</li>
-          <li>GitHub</li>
-        </ul>
-      </div> */
 </script>
 
 <style scoped>
@@ -122,5 +98,6 @@ body {
   color: #000000;
   font-size: 1.5em;
   text-decoration: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 </style>
