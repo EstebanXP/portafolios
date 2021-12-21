@@ -1,6 +1,6 @@
 <template>
     <div class="whiteSpace">
-        <h2>{{ inText }}</h2>
+        <h3>{{ inText }}</h3>
     </div>
 </template>
 
@@ -28,8 +28,8 @@ export default {
 .whiteSpace{
     width: 80%;
     height: 100px;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
     margin: auto;
-    text-align: left;
+    text-align: auto;
 }
 </style>
